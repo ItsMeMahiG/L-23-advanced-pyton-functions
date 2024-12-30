@@ -1,4 +1,4 @@
-num= int(input("under which value do you want your odd and even numbers? : "))
+num= int(input("Under which value do you want your odd and even numbers? : "))
 ol=[i for i in range (num)if i%2!=0]
 print("list of odd numbers:", ol,"\n")
 el=[i for i in range (num)if i%2==0]
